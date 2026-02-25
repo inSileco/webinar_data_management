@@ -19,7 +19,10 @@ format:
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 ---
 
-## About us 
+# About us 
+
+
+## About us
 
 ::: {style="text-align: center;"}
 [![](img/insileco.png){width=80%}](https://insileco.io/){target="_blank"}
@@ -35,55 +38,66 @@ format:
 - Maintain and expand ArcticNet’s long-term data archive
 - Deliver training and capacity building (e.g. this webinar)
 
+
 ## Webinar Structure  
 
 <br>
 
-1. ***Why***
-2. ***What***
-3. ***When & Who*** 
-4. ***How to Guide*** 
-5. ***Future*** 
+1. ***Context***
+2. ***Workflow***
+3. ***Practice: let's draft your DMP*** 
+4. ***Future*** 
 6. ***Q&A*** 
 
 
-# *Why*
-
-Data & Open Science
-
-## More than papers  
-
-- More than papers ➡️ [Crossref Event Data](https://www.crossref.org/services/event-data/)
-- Researchers produce a **diversity of artefacts**
-  - 🫙 protocols
-  - 💻 code
-  - 💾 **datasets** (observations, measurements, etc.)
-  - 📢 public debates
-- Datasets are 
-  - getting bigger 
-  - getting more diversified
-  - now published standalone  
 
 
-## What is “data”?  
+# Context
 
-- Broad definition: **recorded information supporting research findings**  
-  - could include various artefacts, e.g., 💻 code
-- Data = information in a form that can be processed
-  - often this means "structured collection of bits"
-  - the structure = format 
-  - spreadsheet, images, etc.
-- Useful lens: the **5 V’s of Big Data**  
-  - **Volume**, **Variety**, Velocity, Veracity, and **Value**  
+RDM, Data & Open Science
 
 
-:::footer 
-[IBM website](https://www.ibm.com/think/topics/big-data)
+
+## Research data  
+
+::: {.fragment}
+
+- Researchers transform facts into knowledge 
+  - collect, analyze and archive research data
+
+:::
+
+:::{.fragment}
+
+- Broad definitions: 
+  - recorded information supporting research findings
+  - information in a form that can be processed
+    - structured collection of bits
+:::
+
+
+## What is RDM?
+
+::: {.callout-tip}
+### RDM: Research Data Management
+:::
+
+- **Active management** of **research data**
+- Includes planning, documentation, storage, sharing  
+- Encompasses both **technical practices** and **governance**
+
+
+:::footer
+[McGill video capsule](https://www.youtube.com/watch?v=Jm7qIkrL3wM)
+&nbsp; ***·*** &nbsp;
+[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+&nbsp; ***·*** &nbsp;
+[Digital Curation Centre](https://www.dcc.ac.uk/guidance/curation-lifecycle-model)
 :::
 
 
 
-## Data explosion (Volume)
+## Research data are getting bigger 
 
 :::: {.columns}
 
@@ -91,29 +105,26 @@ Data & Open Science
 ### GBIF: Global Biodiversity Information Facility
 :::
 
-::: {.column width="60%"}
-- New questions & horizons ➡️ more data  
+::: {.column width="50%"}
 - Powerful technologies enabling unprecedented data collection
-- AI exploiting massive data collection 
-- Ex: Large Hadron Collider ➡️ ~40 Zettabytes in 2017
 - Ex: GBIF
   - 125 million records in 2007 
   - 1.6 billion in 2020
   - **1 150% increase in just 13 years**
 :::
 
-::: {.column width="40%"}
-[![](img/datasphere.png){width=100%}](img/datasphere.png)
-
+::: {.column width="50%"}
 [![](img/bigData.png){width=100%}](img/bigData.png)
 :::
 
 :::: 
 
+> A modern LLM is typically trained with 1x10^13 two-byte tokens, which is 2x10^13 bytes.
+
+Yann Lecun, X, 2024
+
+
 :::footer 
-[IDC–Seagate Data Age Whitepaper](https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf) 
-&nbsp; ***·*** &nbsp;
-[Seagate WP DataAge 2025](https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf)
 &nbsp; ***·*** &nbsp;
 [Clissa *et al.* 2023. *How big is Big Data?* Frontiers in Big Data](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full)
 &nbsp; ***·*** &nbsp;
@@ -121,16 +132,16 @@ Data & Open Science
 :::
 
 
-## Data heterogeneity (Variety)
+
+## Research data are heterogeneous
 
 :::: {.columns}
 
 ::: {.column width="70%"}
+- New research questions, new data 
 - Different objects, storage formats, technologies  
 - Data vary widely across and within disciplines  
-- Lack of standards hinders integration and reuse  
-- Legacy practices (e.g., local storage) limit access and preservation  
-- Prevalent in large Interdisciplinary Research Programs
+- One research handle a wide array of type of data 
 :::
 
 ::: {.column width="30%"}
@@ -144,21 +155,64 @@ Data & Open Science
 :::
 
 
-## Benefits (Value)
+## Research data are valuable
 
-:::: {.columns}
 
-::: {.column width="70%"}
 - We need reliable data to better understand and predict
   - anticipate/mitigate future changes
   - Ex: good assessment of temperature and precipitation change
-- Some data are hard to collect
+- Some data are hard (and expansice) to collect
   - Arctic Data are good examples
 - Data are **precious** for future generations
   - We cannot collect past data
+  - past public money has been spent to collect them
+
+
+
+## So,
+
+- Research data are big and heterogenous 
+- Research data are extremely valuable 
+
+:::{.fragment}
+### Let's take good care of all collected datasets
 :::
 
-::::
+
+
+
+
+
+# Workflow 
+
+## Typical data workflow 
+
+
+
+## Collect 
+
+- Use the best protocp
+
+
+
+## Analyse 
+
+- Should tramsformed adta 
+- Should I share the code 
+- Github -> Code 
+- If I give you the code and the raw data you should 
+  - if it takes 10 days on your local computer.... 
+
+
+## Archive 
+
+
+## Reuse 
+
+- You and other 
+- Secondary data 
+
+
 
 
 
@@ -174,43 +228,6 @@ Data & Open Science
 - Strengthens **compliance** with funders & journals  
 - Builds a foundation for **collaboration in IRPs**
   - data may be reused in unexpected ways by colleagues
-
-
-## Open Data for Open Science
-
-:::: {.columns}
-
-::: {.column width="70%"}
-- **Open Science** 
-  - research ➡️ transparent and accessible  
-- **Open Access**
-  - publishing ➡️ results freely available  
-- **Reproducible research**
-  - practices ➡️ trust & verification  
-
-- Increasingly drives **journal & funder expectations**  
-- Sets the stage for today's **policies and compliance frameworks**
-- Requires robust data stewardship
-
-:::
-
-::: {.column width="30%"}
-[![](img/unesco_open_science1.png){width=80%}](img/unesco_open_science_full.png)
-[![](img/unesco_open_science2.png){width=80%}](img/unesco_open_science_full.png)
-:::
-
-:::: 
-
-
-:::footer
-[Budapest Open Access Initiative](https://www.budapestopenaccessinitiative.org/)
-&nbsp; ***·*** &nbsp;
-[Suber P. 2012. *Open Access*](https://direct.mit.edu/books/book/3754/Open-Access)
-&nbsp; ***·*** &nbsp;
-[UNESCO's Open Science Toolkit](https://www.unesco.org/en/open-science/toolkit)
-:::
-
-
 
 
 
@@ -230,15 +247,6 @@ Data & Open Science
   - data may be reuse in unexpected ways by colleagues
 
 
-## Key takeaways
-
-- Research outputs go **beyond papers** ➡️ **data is central**  
-- The **explosion & heterogeneity** of data offers new horizons and create new technical challenges  
-- The **Open Science movement** drives funder and journal expectations  
-- For IRPs, effective data management enables **collaboration, compliance, and visibility**  
-- Data management is not just compliance — it is a **path to better science**  
-
-
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 # *What*
@@ -246,36 +254,7 @@ Data & Open Science
 Definition, Policies & Benefits
 
 
-## What is RDM?
 
-::: {.callout-tip}
-### RDM: Research Data Management
-:::
-
-:::: {.columns}
-
-::: {.column width="55%"}
-- **Active management** of research data across its lifecycle  
-- Includes planning, documentation, storage, preservation, sharing  
-- Ensures data are **usable, accessible, trustworthy**  
-- Encompasses both **technical practices** and **governance**
-:::
-
-::: {.column width="45%"}
-[![](img/dcc_lifecycle_model.jpg){width=100%}](img/dcc_lifecycle_model.jpg)
-:::
-
-:::: 
-
-
-
-:::footer
-[McGill video capsule](https://www.youtube.com/watch?v=Jm7qIkrL3wM)
-&nbsp; ***·*** &nbsp;
-[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
-&nbsp; ***·*** &nbsp;
-[Digital Curation Centre](https://www.dcc.ac.uk/guidance/curation-lifecycle-model)
-:::
 
 ## Benefits of RDM
 
@@ -434,105 +413,7 @@ Timeline, Roles & Responsibilities
 
 <img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
 
-## [FAIR](https://www.nature.com/articles/sdata201618) Principles
 
-:::: {.columns}
-
-::: {.column width="60%"}
-::: {style="font-size: 80%;"}
-- `(F)` Findable
-- `(A)` Accessible
-- `(I)` Interoperable
-- `(R)` Reusable
-
-**Goals:**
-
-- Make data easy to discover through rich metadata  
-- Ensure data can be accessed under clear conditions  
-- Promote interoperability across disciplines & tools  
-- Enable reuse through licenses & clear documentation  
-
-:::
-:::
-
-::: {.column width="40%"}
-[![](img/fair.png)](img/fair.png)
-:::
-
-::::
-
-
-:::footer
-[Wilkinson *et al.* 2016. *The FAIR Guiding Principles for scientific data management and stewardship*](https://www.nature.com/articles/sdata201618)
-:::
-
-
-
-## [CARE](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles
-
-:::: {.columns}
-
-::: {.column width="60%"}
-::: {style="font-size: 80%;"}
-- `(C)` Collective Benefit
-- `(A)` Authority to Control
-- `(R)` Responsibility
-- `(E)` Ethics
-
-**Goals:**
-
-- People- and purpose-oriented
-- First Nations data rights and governance
-- Inspired from [OCAP®](https://fnigc.ca/ocap-training/)
-- Complement FAIR Principles
-:::
-:::
-
-::: {.column width="40%"}
-[![](img/care.png)](img/care.png)
-:::
-
-::::
-
-
-:::footer
-[Russo Carroll *et al.* 2020. *The CARE Principles for Indigenous Data Governance*](https://datascience.codata.org/articles/10.5334/dsj-2020-043/)
-:::
-
-
-## [TRUST](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles
-
-:::: {.columns}
-
-::: {.column width="50%"}
-::: {style="font-size: 80%;"}
-- `(T)` Transparency 
-- `(R)` Responsibility
-- `(U)` User Focus
-- `(S)` Sustainability
-- `(T)` Technology
-:::
-:::
-
-::: {.column width="50%"}
-[![](img/trust.png)](img/trust.png)
-:::
-
-::::
-
-::: {style="font-size: 80%;"}
-**Goals:**
-
-- Build confidence in digital repositories  
-- Ensure authenticity, integrity, and reliability of data  
-- Prioritize the needs of user communities  
-- Guarantee long-term preservation and accessibility  
-- Provide secure, persistent, and interoperable infrastructure  
-:::
-
-:::footer
-[Lin *et al.* 2020. *The TRUST Principles for digital repositories* Scientific data](https://www.nature.com/articles/s41597-020-0486-7)
-:::
 
 ## Documentation & metadata  
 
