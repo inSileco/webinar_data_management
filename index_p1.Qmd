@@ -1,0 +1,763 @@
+---
+title: "Research Data Management"
+author: "inSileco & ArcticNet"
+date: "2026-02-26"
+from: markdown+emoji
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    transition: fade
+    css: styles.css
+    incremental: false
+    toc: false
+    toc-depth: 2
+    include-in-header:
+      - text: |
+          <!-- Font Awesome 6 -->
+          <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+---
+
+## About us 
+
+::: {style="text-align: center;"}
+[![](img/insileco.png){width=80%}](https://insileco.io/){target="_blank"}
+:::
+
+## About us 
+
+***inSileco*** & ***ArcticNet*** **(since 2023)**
+
+- Develop criteria for project Data Management
+- Review and provide feedback on project Data Management Plans
+- Support researchers with RDM practices and tools
+- Maintain and expand ArcticNet’s long-term data archive
+- Deliver training and capacity building (e.g. this webinar)
+
+## Webinar Structure  
+
+<br>
+
+1. ***Why***
+2. ***What***
+3. ***When & Who*** 
+4. ***How to Guide*** 
+5. ***Future*** 
+6. ***Q&A*** 
+
+
+# *Why*
+
+Data & Open Science
+
+## More than papers  
+
+- More than papers ➡️ [Crossref Event Data](https://www.crossref.org/services/event-data/)
+- Researchers produce a **diversity of artefacts**
+  - 🫙 protocols
+  - 💻 code
+  - 💾 **datasets** (observations, measurements, etc.)
+  - 📢 public debates
+- Datasets are 
+  - getting bigger 
+  - getting more diversified
+  - now published standalone  
+
+
+## What is “data”?  
+
+- Broad definition: **recorded information supporting research findings**  
+  - could include various artefacts, e.g., 💻 code
+- Data = information in a form that can be processed
+  - often this means "structured collection of bits"
+  - the structure = format 
+  - spreadsheet, images, etc.
+- Useful lens: the **5 V’s of Big Data**  
+  - **Volume**, **Variety**, Velocity, Veracity, and **Value**  
+
+
+:::footer 
+[IBM website](https://www.ibm.com/think/topics/big-data)
+:::
+
+
+
+## Data explosion (Volume)
+
+:::: {.columns}
+
+::: {.callout-tip }
+### GBIF: Global Biodiversity Information Facility
+:::
+
+::: {.column width="60%"}
+- New questions & horizons ➡️ more data  
+- Powerful technologies enabling unprecedented data collection
+- AI exploiting massive data collection 
+- Ex: Large Hadron Collider ➡️ ~40 Zettabytes in 2017
+- Ex: GBIF
+  - 125 million records in 2007 
+  - 1.6 billion in 2020
+  - **1 150% increase in just 13 years**
+:::
+
+::: {.column width="40%"}
+[![](img/datasphere.png){width=100%}](img/datasphere.png)
+
+[![](img/bigData.png){width=100%}](img/bigData.png)
+:::
+
+:::: 
+
+:::footer 
+[IDC–Seagate Data Age Whitepaper](https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf) 
+&nbsp; ***·*** &nbsp;
+[Seagate WP DataAge 2025](https://www.seagate.com/files/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf)
+&nbsp; ***·*** &nbsp;
+[Clissa *et al.* 2023. *How big is Big Data?* Frontiers in Big Data](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1271639/full)
+&nbsp; ***·*** &nbsp;
+[Mason *et al.* 2021. *Data integration enables global biodiversity synthesis* PNAS](https://www.pnas.org/doi/10.1073/pnas.2018093118)
+:::
+
+
+## Data heterogeneity (Variety)
+
+:::: {.columns}
+
+::: {.column width="70%"}
+- Different objects, storage formats, technologies  
+- Data vary widely across and within disciplines  
+- Lack of standards hinders integration and reuse  
+- Legacy practices (e.g., local storage) limit access and preservation  
+- Prevalent in large Interdisciplinary Research Programs
+:::
+
+::: {.column width="30%"}
+[![](img/variety-of-big-data-sources.png){width=100%}](img/variety-of-big-data-sources.png)
+:::
+
+:::: 
+
+:::footer
+[ColumnFive Media](https://www.columnfivemedia.com/work/infographic-intelligence-by-variety)
+:::
+
+
+## Benefits (Value)
+
+:::: {.columns}
+
+::: {.column width="70%"}
+- We need reliable data to better understand and predict
+  - anticipate/mitigate future changes
+  - Ex: good assessment of temperature and precipitation change
+- Some data are hard to collect
+  - Arctic Data are good examples
+- Data are **precious** for future generations
+  - We cannot collect past data
+:::
+
+::::
+
+
+
+## Why this matters for you
+
+::: {.callout-tip}
+### IRP: Interdisciplinary Research Program
+:::
+
+- Data is a **primary research output**  
+- Reduces risk of **data loss or inaccessibility**  
+- Proper management increases **visibility & citations**  
+- Strengthens **compliance** with funders & journals  
+- Builds a foundation for **collaboration in IRPs**
+  - data may be reused in unexpected ways by colleagues
+
+
+## Open Data for Open Science
+
+:::: {.columns}
+
+::: {.column width="70%"}
+- **Open Science** 
+  - research ➡️ transparent and accessible  
+- **Open Access**
+  - publishing ➡️ results freely available  
+- **Reproducible research**
+  - practices ➡️ trust & verification  
+
+- Increasingly drives **journal & funder expectations**  
+- Sets the stage for today's **policies and compliance frameworks**
+- Requires robust data stewardship
+
+:::
+
+::: {.column width="30%"}
+[![](img/unesco_open_science1.png){width=80%}](img/unesco_open_science_full.png)
+[![](img/unesco_open_science2.png){width=80%}](img/unesco_open_science_full.png)
+:::
+
+:::: 
+
+
+:::footer
+[Budapest Open Access Initiative](https://www.budapestopenaccessinitiative.org/)
+&nbsp; ***·*** &nbsp;
+[Suber P. 2012. *Open Access*](https://direct.mit.edu/books/book/3754/Open-Access)
+&nbsp; ***·*** &nbsp;
+[UNESCO's Open Science Toolkit](https://www.unesco.org/en/open-science/toolkit)
+:::
+
+
+
+
+
+
+
+## Why this matters for you
+
+::: {.callout-tip}
+### IRP: Interdisciplinary Research Program
+:::
+
+- Data is now a **primary research output**  
+- Reduces risk of **data loss or inaccessibility**  
+- Proper management increases **visibility & citations**  
+- Strengthens **compliance** with funders & journals  
+- Builds a foundation for **collaboration in IRPs**
+  - data may be reuse in unexpected ways by colleagues
+
+
+## Key takeaways
+
+- Research outputs go **beyond papers** ➡️ **data is central**  
+- The **explosion & heterogeneity** of data offers new horizons and create new technical challenges  
+- The **Open Science movement** drives funder and journal expectations  
+- For IRPs, effective data management enables **collaboration, compliance, and visibility**  
+- Data management is not just compliance — it is a **path to better science**  
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *What*
+
+Definition, Policies & Benefits
+
+
+## What is RDM?
+
+::: {.callout-tip}
+### RDM: Research Data Management
+:::
+
+:::: {.columns}
+
+::: {.column width="55%"}
+- **Active management** of research data across its lifecycle  
+- Includes planning, documentation, storage, preservation, sharing  
+- Ensures data are **usable, accessible, trustworthy**  
+- Encompasses both **technical practices** and **governance**
+:::
+
+::: {.column width="45%"}
+[![](img/dcc_lifecycle_model.jpg){width=100%}](img/dcc_lifecycle_model.jpg)
+:::
+
+:::: 
+
+
+
+:::footer
+[McGill video capsule](https://www.youtube.com/watch?v=Jm7qIkrL3wM)
+&nbsp; ***·*** &nbsp;
+[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+&nbsp; ***·*** &nbsp;
+[Digital Curation Centre](https://www.dcc.ac.uk/guidance/curation-lifecycle-model)
+:::
+
+## Benefits of RDM
+
+- Greater **visibility & citations** for datasets  
+- Reduced **risk of loss** (backups, repositories)  
+- Stronger **collaboration & integration** across teams and institutions  
+- Improved **efficiency** via organized workflows  
+- Network-level governance fosters **new synergies**  
+- Enhanced **credibility & compliance** with funders  
+
+## RDM in IRPs
+
+- **Scale & complexity**: multiple projects, teams, and disciplines  
+- **Heterogeneity**: diverse data types, methods, and formats  
+- **Collaboration**: shared datasets across institutions & regions  
+- **Continuity**: long program lifespans require robust preservation  
+- **Accountability**: funder compliance + community expectations  
+- **Opportunities**: well-managed data fosters reuse, integration, and new insights  
+
+
+## Tri-Agency RDM Policy (2021)
+
+- **Applies across NSERC, SSHRC, CIHR**  
+- Institutions must develop and publish **institutional RDM strategies**  
+- Researchers are expected to:  
+  - Prepare and maintain **Data Management Plans**  
+  - Deposit data in **trusted repositories** when appropriate  
+- Ensures Canadian research aligns with **international open science practices**  
+- Compliance increasingly linked to **funding requirements**  
+
+:::footer
+[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+:::
+
+## ArcticNet’s Policy (2025)
+
+::: {.callout-note}
+### More details available in the *How to Guide* 
+:::
+
+**Objectives**:  
+
+- Apply best practices in data stewardship (national & international standards)  
+- Maximize value through accessibility, reuse, and transparency
+- Encourage collaboration and responsible data sharing
+- Provide guidance for sensitive data
+- Respect Indigenous data sovereignty
+
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *When & Who*
+
+Timeline, Roles & Responsibilities
+
+
+
+## Why timing matters in IRPs
+
+- IRPs = distributed ecosystems ➡️ diverse goals, methods, and data practices  
+- Effective RDM must start early and continue throughout the program  
+- Early planning unlocks future reuse & collaboration
+- Data as an infrastructure for collaboration
+
+
+## Timeline and dual responsibilities
+
+*Network: balance autonomy & coordination*
+
+:::: {.columns}
+::: {.column width="40%"}
+- Standards & templates
+- Tools for metadata & discovery
+- Review, feedback & training
+- Synthesize & report
+:::
+
+::: {.column width="60%"}
+[![](img/timeline.png){width=100%}](img/timeline2.png)
+:::
+::::
+
+## Timeline and dual responsibilities
+
+*Researchers: manage and document project data responsibly*
+
+:::: {.columns}
+::: {.column width="40%"}
+- Proposal & tentative data management plan
+- Develop and maintain project-level data management plan
+- Collect & document
+- Analyze
+- Archive
+:::
+
+::: {.column width="60%"}
+[![](img/timeline2.png){width=100%}](img/timeline2.png)
+:::
+::::
+ 
+
+
+## Benefits of shared responsibility
+
+- **For Researchers**  
+  - Reduced administrative burden (network reviews, templates, tools)  
+  - Increased visibility and citations for datasets  
+  - Easier compliance with funder requirements  
+  - Improved data reuse and discovery  
+  - Unexpected collaborations & new insights  
+
+## Benefits of shared responsibility
+
+- **For Researchers**  
+  - Reduced administrative burden (network reviews, templates, tools)  
+  - Increased visibility and citations for datasets  
+  - Easier compliance with funder requirements  
+  - Improved data reuse and discovery  
+  - Unexpected collaborations & new insights  
+
+- **For the Network & IRP**  
+  - Better integration of diverse datasets  
+  - Ability to track collaboration & impact  
+  - Stronger collective legacy beyond the program  
+  - Data infrastructure that supports future research  
+
+## ArcticNet Principles
+
+***In other words: what is expected of you as a researcher***
+
+
+::: {style="font-size: 80%;"}
+:::{.incremental}
+- ArcticNet funded data = a **public good** ➡️ as open as possible, as closed as necessary  
+- Researchers must ensure:  
+  - **Timely sharing** ➡️ data made publicly available quickly, unless restricted 
+  - **Publish metadata** ➡️ publish and share your metadata (e.g. Polar Data Catalog)
+  - **Respect for Indigenous rights** ➡️ uphold Inuit, First Nations, and Métis ownership, access, and control (CARE, OCAP®, NISR)  
+  - **Citable & preserved** ➡️ data should be publishable, citable, and preserved when appropriate  
+  - **Interoperability & connectivity** ➡️ link with Canadian & international Arctic data systems, avoid duplication  
+  - **Best practices** ➡️ follow ethical, legal, cultural, and funder requirements; use existing infrastructure where possible  
+  - **Support & guidance** ➡️ researchers engage with training, outreach, and resources provided  
+:::
+:::
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+## [FAIR](https://www.nature.com/articles/sdata201618) Principles
+
+:::: {.columns}
+
+::: {.column width="60%"}
+::: {style="font-size: 80%;"}
+- `(F)` Findable
+- `(A)` Accessible
+- `(I)` Interoperable
+- `(R)` Reusable
+
+**Goals:**
+
+- Make data easy to discover through rich metadata  
+- Ensure data can be accessed under clear conditions  
+- Promote interoperability across disciplines & tools  
+- Enable reuse through licenses & clear documentation  
+
+:::
+:::
+
+::: {.column width="40%"}
+[![](img/fair.png)](img/fair.png)
+:::
+
+::::
+
+
+:::footer
+[Wilkinson *et al.* 2016. *The FAIR Guiding Principles for scientific data management and stewardship*](https://www.nature.com/articles/sdata201618)
+:::
+
+
+
+## [CARE](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles
+
+:::: {.columns}
+
+::: {.column width="60%"}
+::: {style="font-size: 80%;"}
+- `(C)` Collective Benefit
+- `(A)` Authority to Control
+- `(R)` Responsibility
+- `(E)` Ethics
+
+**Goals:**
+
+- People- and purpose-oriented
+- First Nations data rights and governance
+- Inspired from [OCAP®](https://fnigc.ca/ocap-training/)
+- Complement FAIR Principles
+:::
+:::
+
+::: {.column width="40%"}
+[![](img/care.png)](img/care.png)
+:::
+
+::::
+
+
+:::footer
+[Russo Carroll *et al.* 2020. *The CARE Principles for Indigenous Data Governance*](https://datascience.codata.org/articles/10.5334/dsj-2020-043/)
+:::
+
+
+## [TRUST](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {style="font-size: 80%;"}
+- `(T)` Transparency 
+- `(R)` Responsibility
+- `(U)` User Focus
+- `(S)` Sustainability
+- `(T)` Technology
+:::
+:::
+
+::: {.column width="50%"}
+[![](img/trust.png)](img/trust.png)
+:::
+
+::::
+
+::: {style="font-size: 80%;"}
+**Goals:**
+
+- Build confidence in digital repositories  
+- Ensure authenticity, integrity, and reliability of data  
+- Prioritize the needs of user communities  
+- Guarantee long-term preservation and accessibility  
+- Provide secure, persistent, and interoperable infrastructure  
+:::
+
+:::footer
+[Lin *et al.* 2020. *The TRUST Principles for digital repositories* Scientific data](https://www.nature.com/articles/s41597-020-0486-7)
+:::
+
+## Documentation & metadata  
+
+***What are metadata & metadata standards?***  
+
+::: {style="font-size: 80%;"}  
+- Define how datasets are described (the context, not the content)  
+- Ensure data are findable, interpretable, and reusable  
+- Provide consistent fields for *who, what, where, when, how* 
+- Examples:  
+  - **Dublin Core** ➡️ general-purpose descriptors  
+  - **ISO 19115** ➡️ geospatial metadata  
+  - **Darwin Core** ➡️ biodiversity metadata  
+  - **DataCite Schema** ➡️ dataset metadata for DOIs  
+:::  
+
+::: {.callout-note}  
+### Metadata standards vs Data standards  
+Metadata standards describe the data itself (context & discovery), while data standards define how the data is structured. Together, they ensure interoperability and reuse.  
+:::  
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+:::footer  
+[FAIRsharing.org](https://fairsharing.org/)  
+:::
+
+
+## Documentation & metadata  
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Dublin Core: What is it?***
+
+- A **generic metadata standard** used across disciplines  
+- Provides a **basic set of 15 elements** to describe digital objects  
+- Focused on: **who, what, where, when**  
+- Works across repositories, making datasets **findable and shareable**  
+
+**Core elements (examples):**  
+- `title`, `creator`, `subject`, `date`, `format`, `identifier`  
+
+💡 Often extended with qualifiers to add more precision  
+
+## Documentation & metadata  
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Dublin Core: The Grammar***
+
+- Based on **element–value pairs**  
+  - Element = the property being described  
+  - Value = the information recorded  
+- Syntax is **machine-readable** (XML, JSON) but also **human-readable**  
+- Flexible: can be embedded in repositories, DOIs, web pages  
+
+**Example pattern:**  
+- `dc:title` ➡️ "Water Sampling Data 2025"  
+- `dc:creator` ➡️ "Smith, J."  
+- `dc:date` ➡️ "2025-04-15"  
+
+## Documentation & metadata  
+
+<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Dublin Core: Example Record***
+
+```xml
+<record>
+  <dc:title>Water Sampling Data 2025</dc:title>
+  <dc:creator>Smith, J.</dc:creator>
+  <dc:subject>Oceanography</dc:subject>
+  <dc:date>2025-04-15</dc:date>
+  <dc:format>CSV</dc:format>
+  <dc:identifier>doi:10.12345/abcd</dc:identifier>
+</record>
+```
+
+## Preservation & archiving
+
+<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Persistent Identifiers (PIDs)***
+
+::: {style="font-size: 80%;"}
+- What they are: unique, permanent digital references for research objects, people, and institutions.  
+
+- Examples:  
+  - **DOI** ➡️ datasets, publications  
+  - **ORCID** ➡️ researchers  
+  - **ROR** ➡️ institutions  
+  - **ARK / Handle** ➡️ digital objects  
+
+- Why are PIDs important  DMPs & RDM?
+  - Ensure long-term findability and access  
+  - Enable unambiguous attribution (linking people, projects, data)  
+  - Facilitate interoperability across repositories and systems  
+  - Support impact tracking and reuse metrics  
+
+*Think of PIDs as the “barcodes” of research*  
+:::
+
+## Preservation & archiving
+
+<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Data repositories***
+
+- Institutional ➡️ university libraries, research data services  
+- National ➡️ Federated Research Data Repository (FRDR), Borealis
+- Disciplinary ➡️ GBIF, OBIS, GenBank, ICPSR  
+- General-purpose ➡️ Zenodo, Dryad, Figshare, Dataverse
+
+***Choose a repository that is:***
+
+- Trusted (certified, long-term sustainability)  
+- FAIR and TRUST-aligned (metadata standards, PIDs)  
+- Appropriate for your data type & community  
+
+:::footer
+[Repository Finder (re3data.org)](https://www.re3data.org/)
+&nbsp; ***·*** &nbsp;
+[FRDR](https://www.frdr-dfdr.ca/)
+&nbsp; ***·*** &nbsp;
+[FAIRsharing.org](https://fairsharing.org/)
+&nbsp; ***·*** &nbsp;
+[Dataverse](https://dataverse.org/)
+:::
+
+
+# Borealis
+
+## [Dataverse](https://dataverse.org)
+
+> A collaboration with the Institute for Quantitative Social Science (IQSS), the Harvard Library, and Harvard University Information Technology (HUIT): the Harvard Dataverse is a repository for sharing, citing, analyzing, and preserving research data. It is open to all scientific data from all disciplines worldwide. 
+
+- 💻 <https://github.com/IQSS/dataverse>
+
+[![](img/borealis_commits.png){width=50%}](img/borealis_commits.png)
+
+:::footer 
+<https://en.wikipedia.org/wiki/Dataverse>
+:::
+
+
+
+## Two Canadian installations
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### [Abascus](https://abacus.library.ubc.ca/)
+
+[![](img/borealis_abascus.png)](img/borealis_abascus.png)
+
+:::
+
+::: {.column width="50%"}
+
+### [Borealis](https://borealisdata.ca/)
+
+[![](img/borealis_toronto.png)](img/borealis_toronto.png)
+
+:::
+
+::::
+
+## [Borealis](https://borealisdata.ca/)
+
+::: {.callout-tip}
+OCUL = Ontario Council of University Libraries
+::: 
+
+> In Canada, Borealis is a national instance of the Dataverse repository hosted by OCUL's Scholars Portal at the University of Toronto.
+
+- Support at Guelph at UoG library.
+- CEM repository: <https://borealisdata.ca/dataverse/cem>
+
+
+## With Borealis 
+
+- You are using a TRUST platform that respects FAIR principles
+- You will have to fill out metadata and proper standard will be used
+- The archiving portion of the DMP is hence taken care of
+
+- Example: <https://borealisdata.ca/dataverse/doib>
+- Resources
+  - [Template](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/CPHFGA)
+  - [Writing README](https://guides.lib.uoguelph.ca/c.php?g=738963&p=5374594)
+
+
+## From local spreadsheet to FAIR datasets
+
+[![](img/borealis_spreadsheet1.png)](img/borealis_spreadsheet1.png)
+
+
+## From local spreadsheet to FAIR datasets
+
+[![](img/borealis_spreadsheet2.png)](img/borealis_spreadsheet2.png)
+
+
+
+
+## Sharing & reuse
+
+<img src="img/sharing.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
+
+***Licensing Your Data***
+
+- A license tells others how they can use your data
+- Common choices:  
+  - **CC-BY** ➡️ use with attribution  
+  - **CC0** ➡️ no restrictions (public domain)  
+  - **Custom agreements** ➡️ for sensitive, Indigenous, or commercial data  
+
+*Clearly state the license in your metadata, README, or repository record*
+
+:::footer
+[Creative Commons Licenses](https://creativecommons.org/licenses/)
+&nbsp; ***·*** &nbsp;
+[Data Management Expert Guide - Licensing your data](https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Licensing-your-data)
+&nbsp; ***·*** &nbsp;
+[How to FAIR - Data licences](https://www.howtofair.dk/how-to-fair/data-licences)
+&nbsp; ***·*** &nbsp;
+[Choose a license](https://choosealicense.com/licenses/)
+:::
+
