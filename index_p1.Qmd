@@ -165,7 +165,7 @@ Yann Lecun, X, 2024
   - Arctic Data are good examples
 - Data are **precious** for future generations
   - We cannot collect past data
-  - past public money has been spent to collect them
+  - considerable past public money has been spent to collect them
 
 
 
@@ -175,9 +175,8 @@ Yann Lecun, X, 2024
 - Research data are extremely valuable 
 
 :::{.fragment}
-### Let's take good care of all collected datasets
+**Let's take good care of all collected datasets**
 :::
-
 
 
 
@@ -185,234 +184,84 @@ Yann Lecun, X, 2024
 
 # Workflow 
 
-## Typical data workflow 
+## Data workflow in a research project
+
+
+![](img/workflow_01.svg){width=86%, fig-align="center"}
 
 
 
-## Collect 
+## In a nutshell 
 
-- Use the best protocp
-
-
-
-## Analyse 
-
-- Should tramsformed adta 
-- Should I share the code 
-- Github -> Code 
-- If I give you the code and the raw data you should 
-  - if it takes 10 days on your local computer.... 
-
-
-## Archive 
-
-
-## Reuse 
-
-- You and other 
-- Secondary data 
-
-
-
-
-
-## Why this matters for you
-
-::: {.callout-tip}
-### IRP: Interdisciplinary Research Program
-:::
-
-- Data is a **primary research output**  
-- Reduces risk of **data loss or inaccessibility**  
-- Proper management increases **visibility & citations**  
-- Strengthens **compliance** with funders & journals  
-- Builds a foundation for **collaboration in IRPs**
-  - data may be reused in unexpected ways by colleagues
-
-
-
-
-
-## Why this matters for you
-
-::: {.callout-tip}
-### IRP: Interdisciplinary Research Program
-:::
-
-- Data is now a **primary research output**  
-- Reduces risk of **data loss or inaccessibility**  
-- Proper management increases **visibility & citations**  
-- Strengthens **compliance** with funders & journals  
-- Builds a foundation for **collaboration in IRPs**
-  - data may be reuse in unexpected ways by colleagues
-
-
-
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-# *What*
-
-Definition, Policies & Benefits
-
-
-
-
-## Benefits of RDM
-
-- Greater **visibility & citations** for datasets  
-- Reduced **risk of loss** (backups, repositories)  
-- Stronger **collaboration & integration** across teams and institutions  
-- Improved **efficiency** via organized workflows  
-- Network-level governance fosters **new synergies**  
-- Enhanced **credibility & compliance** with funders  
-
-## RDM in IRPs
-
-- **Scale & complexity**: multiple projects, teams, and disciplines  
-- **Heterogeneity**: diverse data types, methods, and formats  
-- **Collaboration**: shared datasets across institutions & regions  
-- **Continuity**: long program lifespans require robust preservation  
-- **Accountability**: funder compliance + community expectations  
-- **Opportunities**: well-managed data fosters reuse, integration, and new insights  
-
-
-## Tri-Agency RDM Policy (2021)
-
-- **Applies across NSERC, SSHRC, CIHR**  
-- Institutions must develop and publish **institutional RDM strategies**  
-- Researchers are expected to:  
-  - Prepare and maintain **Data Management Plans**  
-  - Deposit data in **trusted repositories** when appropriate  
-- Ensures Canadian research aligns with **international open science practices**  
-- Compliance increasingly linked to **funding requirements**  
-
-:::footer
-[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
-:::
-
-## ArcticNet’s Policy (2025)
-
-::: {.callout-note}
-### More details available in the *How to Guide* 
-:::
-
-**Objectives**:  
-
-- Apply best practices in data stewardship (national & international standards)  
-- Maximize value through accessibility, reuse, and transparency
-- Encourage collaboration and responsible data sharing
-- Provide guidance for sensitive data
-- Respect Indigenous data sovereignty
-
-
-:::footer
-[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
-:::
-
-<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
-
-
-
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-# *When & Who*
-
-Timeline, Roles & Responsibilities
-
-
-
-## Why timing matters in IRPs
-
-- IRPs = distributed ecosystems ➡️ diverse goals, methods, and data practices  
-- Effective RDM must start early and continue throughout the program  
-- Early planning unlocks future reuse & collaboration
-- Data as an infrastructure for collaboration
-
-
-## Timeline and dual responsibilities
-
-*Network: balance autonomy & coordination*
 
 :::: {.columns}
-::: {.column width="40%"}
-- Standards & templates
-- Tools for metadata & discovery
-- Review, feedback & training
-- Synthesize & report
-:::
+
 
 ::: {.column width="60%"}
-[![](img/timeline.png){width=100%}](img/timeline2.png)
+
+#### Collect 
+
+- Use the best protocols
+- Chose the right **data format** 
+- Use **secured storage** 
+
+::: {.fragment}
+
+#### Analyse
+
+- Report all data manipulations
+- Save processed data
+- Share your code
 :::
+
+:::
+
+::: {.column width="40%"}
+![](img/workflow_01.svg){width=100%, fig-align="center"}
+:::
+
+
 ::::
 
-## Timeline and dual responsibilities
 
-*Researchers: manage and document project data responsibly*
+
+## In a nutshell 
+
 
 :::: {.columns}
-::: {.column width="40%"}
-- Proposal & tentative data management plan
-- Develop and maintain project-level data management plan
-- Collect & document
-- Analyze
-- Archive
-:::
+
 
 ::: {.column width="60%"}
-[![](img/timeline2.png){width=100%}](img/timeline2.png)
+
+#### Archive
+
+- Chose a **platform** that respects **key principles** 
+- ensure that your **metadata** are complete
+
+::: {.fragment}
+
+#### Reuse
+
+- Future you or others
+- **License** your data 
+- Report secondary data usage 
 :::
+
+:::
+
+::: {.column width="40%"}
+![](img/workflow_01.svg){width=100%, fig-align="center"}
+:::
+
+
 ::::
- 
 
 
-## Benefits of shared responsibility
-
-- **For Researchers**  
-  - Reduced administrative burden (network reviews, templates, tools)  
-  - Increased visibility and citations for datasets  
-  - Easier compliance with funder requirements  
-  - Improved data reuse and discovery  
-  - Unexpected collaborations & new insights  
-
-## Benefits of shared responsibility
-
-- **For Researchers**  
-  - Reduced administrative burden (network reviews, templates, tools)  
-  - Increased visibility and citations for datasets  
-  - Easier compliance with funder requirements  
-  - Improved data reuse and discovery  
-  - Unexpected collaborations & new insights  
-
-- **For the Network & IRP**  
-  - Better integration of diverse datasets  
-  - Ability to track collaboration & impact  
-  - Stronger collective legacy beyond the program  
-  - Data infrastructure that supports future research  
-
-## ArcticNet Principles
-
-***In other words: what is expected of you as a researcher***
 
 
-::: {style="font-size: 80%;"}
-:::{.incremental}
-- ArcticNet funded data = a **public good** ➡️ as open as possible, as closed as necessary  
-- Researchers must ensure:  
-  - **Timely sharing** ➡️ data made publicly available quickly, unless restricted 
-  - **Publish metadata** ➡️ publish and share your metadata (e.g. Polar Data Catalog)
-  - **Respect for Indigenous rights** ➡️ uphold Inuit, First Nations, and Métis ownership, access, and control (CARE, OCAP®, NISR)  
-  - **Citable & preserved** ➡️ data should be publishable, citable, and preserved when appropriate  
-  - **Interoperability & connectivity** ➡️ link with Canadian & international Arctic data systems, avoid duplication  
-  - **Best practices** ➡️ follow ethical, legal, cultural, and funder requirements; use existing infrastructure where possible  
-  - **Support & guidance** ➡️ researchers engage with training, outreach, and resources provided  
-:::
-:::
+## Document to contextualize
 
-:::footer
-[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
-:::
-
-<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
-
+![](img/workflow_02.svg){width=86%, fig-align="center"}
 
 
 ## Documentation & metadata  
@@ -420,8 +269,7 @@ Timeline, Roles & Responsibilities
 ***What are metadata & metadata standards?***  
 
 ::: {style="font-size: 80%;"}  
-- Define how datasets are described (the context, not the content)  
-- Ensure data are findable, interpretable, and reusable  
+- Define how datasets are described: the **context,** not the content  
 - Provide consistent fields for *who, what, where, when, how* 
 - Examples:  
   - **Dublin Core** ➡️ general-purpose descriptors  
@@ -491,6 +339,326 @@ Metadata standards describe the data itself (context & discovery), while data st
   <dc:identifier>doi:10.12345/abcd</dc:identifier>
 </record>
 ```
+
+
+
+
+
+## Storing your data 
+
+
+![](img/workflow_03.svg){width=86%, fig-align="center"}
+
+
+## Storing your data 
+
+- Use a secured storage
+- Multiple copies, using cloud
+- If possible use the 3-2-1 backup rule 
+- How sensitive are you data?
+
+
+::: {.footer}
+3-2-1 Backup Rule
+:::
+
+
+
+
+
+## Data archiving 
+
+![](img/workflow_04.svg){width=86%, fig-align="center"}
+
+
+
+
+
+
+
+
+## Ethical and Legal aspects 
+
+
+![](img/workflow.svg){width=86%, fig-align="center"}
+
+
+## Ethical and Legal aspects 
+
+- Should tramsformed data 
+- Should I share the code 
+- Github -> Code 
+- If I give you the code and the raw data you should 
+  - if it takes 10 days on your local computer.... 
+
+![](img/workflow.svg){width=86%, fig-align="center"}
+
+
+
+
+# Organisational consideration
+
+
+
+
+
+
+
+
+
+
+## Why this matters for you
+
+::: {.callout-tip}
+### IRP: Interdisciplinary Research Program
+:::
+
+- Data is a **primary research output**  
+- Reduces risk of **data loss or inaccessibility**  
+- Proper management increases **visibility & citations**  
+- Strengthens **compliance** with funders & journals  
+- Builds a foundation for **collaboration in IRPs**
+  - data may be reused in unexpected ways by colleagues
+
+
+
+
+
+## Why this matters for you
+
+::: {.callout-tip}
+### IRP: Interdisciplinary Research Program
+:::
+
+- Data is now a **primary research output**  
+- Reduces risk of **data loss or inaccessibility**  
+- Proper management increases **visibility & citations**  
+- Strengthens **compliance** with funders & journals  
+- Builds a foundation for **collaboration in IRPs**
+  - data may be reuse in unexpected ways by colleagues
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *What*
+
+Definition, Policies & Benefits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Benefits of RDM
+
+- Greater **visibility & citations** for datasets  
+- Reduced **risk of loss** (backups, repositories)  
+- Stronger **collaboration & integration** across teams and institutions  
+- Improved **efficiency** via organized workflows  
+- Network-level governance fosters **new synergies**  
+- Enhanced **credibility & compliance** with funders  
+
+## RDM in IRPs
+
+- **Scale & complexity**: multiple projects, teams, and disciplines  
+- **Heterogeneity**: diverse data types, methods, and formats  
+- **Collaboration**: shared datasets across institutions & regions  
+- **Continuity**: long program lifespans require robust preservation  
+- **Accountability**: funder compliance + community expectations  
+- **Opportunities**: well-managed data fosters reuse, integration, and new insights  
+
+
+## Tri-Agency RDM Policy (2021)
+
+- **Applies across NSERC, SSHRC, CIHR**  
+- Institutions must develop and publish **institutional RDM strategies**  
+- Researchers are expected to:  
+  - Prepare and maintain **Data Management Plans**  
+  - Deposit data in **trusted repositories** when appropriate  
+- Ensures Canadian research aligns with **international open science practices**  
+- Compliance increasingly linked to **funding requirements**  
+
+:::footer
+[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+:::
+
+## ArcticNet’s Policy (2025)
+
+::: {.callout-note}
+### More details available in the *How to Guide* 
+:::
+
+**Objectives**:  
+
+- Apply best practices in data stewardship (national & international standards)  
+- Maximize value through accessibility, reuse, and transparency
+- Encourage collaboration and responsible data sharing
+- Provide guidance for sensitive data
+- Respect Indigenous data sovereignty
+
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+# *When & Who*
+
+Timeline, Roles & Responsibilities
+
+
+
+## Why timing matters in IRPs
+
+- IRPs = distributed ecosystems ➡️ diverse goals, methods, and data practices  
+- Effective RDM must start early and continue throughout the program  
+- Early planning unlocks future reuse & collaboration
+- Data as an infrastructure for collaboration
+
+
+## Timeline and dual responsibilities
+
+*Network: balance autonomy & coordination*
+
+:::: {.columns}
+::: {.column width="40%"}
+- Standards & templates
+- Tools for metadata & discovery
+- Review, feedback & training
+- Synthesize & report
+:::
+
+::: {.column width="60%"}
+[![](img/timeline.png){width=100%}](img/timeline2.png)
+:::
+::::
+
+## Timeline and dual responsibilities
+
+*Researchers: manage and document project data responsibly*
+
+:::: {.columns}
+::: {.column width="40%"}
+- Proposal & tentative data management plan
+- Develop and maintain project-level data management plan
+- Collect & document
+- Analyze
+- Archive
+:::
+
+::: {.column width="60%"}
+[![](img/timeline2.png){width=100%}](img/timeline2.png)
+:::
+::::
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Benefits of shared responsibility
+
+- **For Researchers**  
+  - Reduced administrative burden (network reviews, templates, tools)  
+  - Increased visibility and citations for datasets  
+  - Easier compliance with funder requirements  
+  - Improved data reuse and discovery  
+  - Unexpected collaborations & new insights  
+
+## Benefits of shared responsibility
+
+- **For Researchers**  
+  - Reduced administrative burden (network reviews, templates, tools)  
+  - Increased visibility and citations for datasets  
+  - Easier compliance with funder requirements  
+  - Improved data reuse and discovery  
+  - Unexpected collaborations & new insights  
+
+- **For the Network & IRP**  
+  - Better integration of diverse datasets  
+  - Ability to track collaboration & impact  
+  - Stronger collective legacy beyond the program  
+  - Data infrastructure that supports future research  
+
+## ArcticNet Principles
+
+***In other words: what is expected of you as a researcher***
+
+
+::: {style="font-size: 80%;"}
+:::{.incremental}
+- ArcticNet funded data = a **public good** ➡️ as open as possible, as closed as necessary  
+- Researchers must ensure:  
+  - **Timely sharing** ➡️ data made publicly available quickly, unless restricted 
+  - **Publish metadata** ➡️ publish and share your metadata (e.g. Polar Data Catalog)
+  - **Respect for Indigenous rights** ➡️ uphold Inuit, First Nations, and Métis ownership, access, and control (CARE, OCAP®, NISR)  
+  - **Citable & preserved** ➡️ data should be publishable, citable, and preserved when appropriate  
+  - **Interoperability & connectivity** ➡️ link with Canadian & international Arctic data systems, avoid duplication  
+  - **Best practices** ➡️ follow ethical, legal, cultural, and funder requirements; use existing infrastructure where possible  
+  - **Support & guidance** ➡️ researchers engage with training, outreach, and resources provided  
+:::
+:::
+
+:::footer
+[ArcticNet Data Management Policy (2025)](https://arcticnet.ca/wp-content/uploads/2025/03/ArcticNet-Data-Management-Policy-ADMP_Approved-March-2025.pdf)
+:::
+
+<img src="img/logo_articnet.svg" style="height:50px; position:absolute; top:-30px; right:-150px;">
+
+
+
 
 ## Preservation & archiving
 
