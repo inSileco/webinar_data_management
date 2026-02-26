@@ -268,7 +268,7 @@ Données de recherche
 ## Flux de travail des données dans les projets de recherche
 
 
-![](img/workflow_01.svg){width=86%, fig-align="center"}
+![](img/workflow_fr_01.svg){width=86%, fig-align="center"}
 
 
 
@@ -298,7 +298,7 @@ Données de recherche
 :::
 
 ::: {.column width="40%"}
-![](img/workflow_01.svg){width=100%, fig-align="center"}
+![](img/workflow_fr_01.svg){width=100%, fig-align="center"}
 :::
 
 
@@ -331,7 +331,7 @@ Données de recherche
 :::
 
 ::: {.column width="40%"}
-![](img/workflow_01.svg){width=100%, fig-align="center"}
+![](img/workflow_fr_01.svg){width=100%, fig-align="center"}
 :::
 
 
@@ -342,7 +342,7 @@ Données de recherche
 
 ## Documenter pour contextualiser
 
-![](img/workflow_02.svg){width=86%, fig-align="center"}
+![](img/workflow_fr_02.svg){width=86%, fig-align="center"}
 
 
 ## Documentation et métadonnées
@@ -399,7 +399,7 @@ Les standards de métadonnées décrivent les données elles-mêmes (contexte et
 ## Stocker vos données
 
 
-![](img/workflow_03.svg){width=86%, fig-align="center"}
+![](img/workflow_fr_03.svg){width=86%, fig-align="center"}
 
 
 ## Stocker vos données
@@ -421,7 +421,7 @@ Les standards de métadonnées décrivent les données elles-mêmes (contexte et
 
 ## Archiver vos données
 
-![](img/workflow_04.svg){width=86%, fig-align="center"}
+![](img/workflow_fr_04.svg){width=86%, fig-align="center"}
 
 
 
@@ -615,7 +615,7 @@ Vous ne pourrez pas toujours partager vos données, mais vous pouvez toujours pa
 ## Aspects éthiques et juridiques
 
 
-![](img/workflow.svg){width=86%, fig-align="center"}
+![](img/workflow_fr.svg){width=86%, fig-align="center"}
 
 
 
@@ -678,7 +678,7 @@ Vous ne pourrez pas toujours partager vos données, mais vous pouvez toujours pa
 :::
 
 ::: {.column width="40%"}
-![](img/workflow.svg){width=100%, fig-align="center"}
+![](img/workflow_fr.svg){width=100%, fig-align="center"}
 :::
 
 
@@ -717,7 +717,7 @@ Vous ne pourrez pas toujours partager vos données, mais vous pouvez toujours pa
 :::
 
 ::: {.column width="40%"}
-![](img/workflow.svg){width=100%, fig-align="center"}
+![](img/workflow_fr.svg){width=100%, fig-align="center"}
 
 ::: {.small}
 - Même processus x nombre de projets !
