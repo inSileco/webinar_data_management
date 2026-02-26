@@ -400,7 +400,7 @@ Les standards de métadonnées décrivent les données elles-mêmes (contexte et
 
 - Utiliser un stockage sécurisé
 - Une copie sur un seul ordinateur ne suffit pas
-- Copies multiples, en utilisant le nuage
+- Copies multiples, en utilisant le stockage sur le cloud
 - Si possible, utiliser la règle de sauvegarde 3-2-1
 - Quelle est la sensibilité de vos données ?
 
@@ -424,7 +424,7 @@ Les standards de métadonnées décrivent les données elles-mêmes (contexte et
 ***Dépôts de données***
 
 - Nationaux/Institutionnels ➡️ Dépôt fédéré de données de recherche (DFDR), Borealis
-- Disciplinaires ➡️ GBIF, OBIS, GenBank, PANGAEA
+- Disciplinaires ➡️ GBIF, OBIS, GenBank, PANGAEA, PDC
 - Usage général ➡️ Zenodo, Dryad, Figshare, Dataverse
 
 ***Choisir un dépôt qui est :***
@@ -526,7 +526,9 @@ Les standards de métadonnées décrivent les données elles-mêmes (contexte et
 :::
 
 :::footer
-[Lin *et al.* 2020. *The TRUST Principles for digital repositories* Scientific data](https://www.nature.com/articles/s41597-020-0486-7)
+[CCIN - PDC](https://ccin.ca/about-pdc.html)
+&nbsp; ***·*** &nbsp;
+[PDC website](https://polardata.ca/)
 :::
 
 
@@ -550,7 +552,7 @@ OCUL = Ontario Council of University Libraries
 
 [![](img/borealis_partners.png)](img/borealis_partners.png)
 
-limite de taille de fichier de 5 Go
+taille de fichier < 5 Go
 
 :::
 
@@ -654,7 +656,7 @@ Vous ne pourrez pas toujours partager vos données, mais vous pouvez toujours pa
 - Réfléchir à l'ensemble de ce processus avant de le réaliser
 
 ::: {.fragment}
-- Rédigez un PGD !
+- Rédigez un PGD (DMP)!
 
 ::: {.callout-tip}
 ### PGD : Plan de gestion des données
@@ -731,7 +733,7 @@ Vous ne pourrez pas toujours partager vos données, mais vous pouvez toujours pa
 - La conformité est de plus en plus liée aux **exigences de financement**
 
 :::footer
-[Politique des trois organismes sur la GDR](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+[Politique des trois organismes sur la GDR](https://science.gc.ca/site/science/fr/financement-interorganismes-recherche/politiques-lignes-directrices/gestion-donnees-recherche/politique-trois-organismes-gestion-donnees-recherche-foire-aux-questions)
 :::
 
 
@@ -824,7 +826,7 @@ Construire votre plan de gestion des données
 
 ::: {style="font-size: 80%;"}
 :::{.incremental}
-- Exigé par de nombreux bailleurs de fonds, y compris les trois organismes
+- Exigé par de nombreux organismes subventionnaires, dont les trois organismes (IRSC, CRSNG et CRSH)
 - Assure la faisabilité des propositions de recherche
 - Démontre une gestion responsable des fonds publics
 - Établit les attentes en matière de stockage, de partage et de préservation
@@ -905,7 +907,7 @@ Construire votre plan de gestion des données
 
 <br>
 
-***Outiller les chercheurs avec des étapes concrètes pour gérer les données de manière responsable, efficace et conforme aux attentes du réseau et des bailleurs de fonds.***
+***Outiller les chercheurs avec des étapes concrètes pour gérer les données de manière responsable, efficace et conforme aux attentes du réseau et des organismes subventionnaires.***
 
 <br>
 
@@ -1345,7 +1347,7 @@ Construire votre plan de gestion des données
 - Privilégier les options certifiées et en accès libre (PDC, Nordicana-D, GBIF, OBIS, DFDR)
 - Déposer toutes les données et métadonnées appuyant les résultats
 - Planifier tôt, utiliser des formats non propriétaires (CSV, TIFF, NetCDF)
-- Conserver les données aussi longtemps que requis par les parties prenantes et les bailleurs de fonds
+- Conserver les données aussi longtemps que requis par les parties prenantes et les organismes subventionnaires
 - Indiquer dans le PGD ce qui sera préservé et toute restriction
 :::
 :::
