@@ -55,7 +55,7 @@ format:
 ::: {style="font-size: 90%;"}  
 - Research data management 
 - Automated workflows
-- Augmented analytics
+- Advanced analytics
 - Decision-support tools
 :::
 
@@ -125,7 +125,7 @@ format:
 
 # Context
 
-RDM, Data & Open Science
+Research data
 
 
 

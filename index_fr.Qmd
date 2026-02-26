@@ -55,7 +55,7 @@ format:
 ::: {style="font-size: 90%;"}
 - Gestion des données de recherche
 - Flux de travail automatisés
-- Analytique augmentée
+- Analyses de données avancées
 - Outils d'aide à la décision
 :::
 
@@ -125,7 +125,7 @@ format:
 
 # Contexte
 
-GDR, données et science ouverte
+Données de recherche
 
 
 
@@ -176,11 +176,11 @@ GDR, données et science ouverte
 :::
 
 ::: {.column width="50%"}
-- Des technologies puissantes permettant une collecte de données sans précédent
+- Collecte de données à vitesse et volume sans précédent
 - Ex : GBIF
   - 125 millions d'enregistrements en 2007
   - 1,6 milliard en 2020
-  - **Augmentation de 1 150 % en seulement 13 ans**
+  - **Augmentation de 1 150 % en 13 ans**
 :::
 
 ::: {.column width="50%"}
@@ -206,7 +206,7 @@ GDR, données et science ouverte
 
 ::: {.column width="70%"}
 - Les données varient considérablement entre et au sein des disciplines
-- Différentes technologies, différents formats,
+- Différentes technologies, différents formats
 - Nouvelles questions de recherche, nouvelles données
 :::
 
@@ -317,8 +317,8 @@ GDR, données et science ouverte
 
 #### Réutiliser
 
-- Votre futur vous ou d'autres
-- **Licencier** vos données
+- 'Futur vous' ou d'autres scientifiques
+- Ajouter une **licence** à vos données
 - Documenter l'utilisation de jeux de données secondaires
 :::
 
