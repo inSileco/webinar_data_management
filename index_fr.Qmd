@@ -120,6 +120,11 @@ format:
 5. ***Avenir***
 6. ***Questions et réponses***
 
+<br> 
+
+::: {style="text-align:center; font-style:italic;"}
+[https://insileco.io/fr/rdm-webinar/](https://insileco.io/fr/rdm-webinar/){target="_blank"}
+:::
 
 
 
@@ -915,13 +920,13 @@ Construire votre plan de gestion des données
 
 ## Objectif
 
-***Créons un PGD ensemble. Commençons [ici](https://tally.so/r/QKekoX).***
+***Créons un PGD ensemble. Commençons [ici](https://insileco.io/fr/rdm-webinar/dmp_form/).***
 
-<a href="https://tally.so/r/QKekoX" target="_blank">
+<a href="https://insileco.io/fr/rdm-webinar/dmp_form/" target="_blank">
   <img src="img/tally.png">
 </a>
 
-<img src="img/tally_qr.png" style="height:150px; position:absolute; top:-30px; right:-30px;">
+<img src="img/rdm_webinar_dmp_form_fr.svg" style="height:150px; position:absolute; top:-30px; right:-30px;">
 
 
 ## Liste de vérification
@@ -1616,7 +1621,7 @@ Tendances émergentes et opportunités
 Nous apprécierions également grandement vos commentaires !
 :::
 
-<a href="" target="_blank">
-  <img src="img/tally_qr.png" alt="Formulaire d'appréciation du webinaire" style="height:175px; border-radius:8px;">
+<a href="https://insileco.io/fr/rdm-webinar/rdm_feedback/" target="_blank">
+  <img src="img/rdm_webinar_feedback_fr.svg" alt="Webinar appreciation form" style="height:175px; border-radius:8px;">
 </a>
 :::

@@ -120,6 +120,11 @@ format:
 5. ***Future***
 6. ***Q&A***
 
+<br> 
+
+::: {style="text-align:center; font-style:italic;"}
+[https://insileco.io/en/rdm-webinar/](https://insileco.io/en/rdm-webinar/){target="_blank"}
+:::
 
 
 
@@ -915,13 +920,13 @@ Building your Data Management Plan
 
 ## Goal 
 
-***Let us create a DMP together. Let's start [here](https://tally.so/r/QKekoX).***
+***Let us create a DMP together. Let's start [here](https://insileco.io/en/rdm-webinar/dmp_form/).***
 
-<a href="https://tally.so/r/QKekoX" target="_blank">
+<a href="https://insileco.io/en/rdm-webinar/dmp_form/" target="_blank">
   <img src="img/tally.png">
 </a>
 
-<img src="img/tally_qr.png" style="height:150px; position:absolute; top:-30px; right:-30px;">
+<img src="img/rdm_webinar_dmp_form_en.svg" style="height:150px; position:absolute; top:-30px; right:-30px;">
 
 
 ## Checklist
@@ -1619,7 +1624,7 @@ Emerging Trends & Opportunities
 We would also greatly appreciate your feedback!
 :::
 
-<a href="" target="_blank">
-  <img src="img/tally_qr.png" alt="Webinar appreciation form" style="height:175px; border-radius:8px;">
+<a href="https://insileco.io/en/rdm-webinar/rdm_feedback/" target="_blank">
+  <img src="img/rdm_webinar_feedback_en.svg" alt="Webinar appreciation form" style="height:175px; border-radius:8px;">
 </a>
 :::
