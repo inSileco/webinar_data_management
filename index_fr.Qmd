@@ -263,10 +263,12 @@ Données de recherche
 
 
 
-# Flux de travail des données
+# Flux de travail
 
-## Flux de travail des données dans les projets de recherche
+Travailler avec les données projets de recherche
 
+
+## Flux de travail
 
 ![](img/workflow_fr_01.svg){width=86%, fig-align="center"}
 
@@ -409,6 +411,10 @@ Les standards de métadonnées décrivent les données elles-mêmes (contexte et
 - Copies multiples, en utilisant le stockage sur le cloud
 - Si possible, utiliser la règle de sauvegarde 3-2-1
 - Quelle est la sensibilité de vos données ?
+
+::: {.fragment}
+- Utiliser des formats de fichiers le plus ouverts possibles 
+::: 
 
 
 ::: {.footer}
@@ -579,7 +585,7 @@ taille de fichier < 5 Go
 
 
 
-## Licencier vos données
+## Ajouter une licence à vos données
 
 - Une licence indique aux autres comment ils peuvent utiliser vos données
 - Choix courants :
