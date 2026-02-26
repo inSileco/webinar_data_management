@@ -199,28 +199,17 @@ Building your Data Management Plan
 ***Guiding Questions***
 
 ::: {style="font-size: 80%;"}
-- What kinds of data will I collect?  
-- Which instruments, sensors, or methods will I use?  
+- What kinds of data will I collect?
+  - *observational, experimental, computational, derived*
+- Which instruments, sensors, or methods will I use? 
+  - *field protocols, sensors, lab assays, software pipelines*
 - How will I ensure quality control before, during, and after collection?  
+  - *calibration, duplicate samples, error-checking*
 - How will I organize and label files?  
+  - *consistent file/folder naming, controlled vocabularies*
 :::
 
 <img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-
-## Data collection
-
-***Core Elements***
-
-::: {style="font-size: 80%;"}
-- **Types of data** ➡️ observational, experimental, computational, derived  
-- **Collection methods & instruments** ➡️ field protocols, sensors, lab assays, software pipelines  
-- **Quality assurance / quality control** ➡️ calibration, duplicate samples, error-checking  
-- **Organization & naming** ➡️ consistent file/folder naming, controlled vocabularies  
-:::
-
-<img src="img/collection.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
 
 
 ## Data collection
@@ -285,23 +274,15 @@ Building your Data Management Plan
 
 ::: {style="font-size: 80%;"}
 - How will I document my data so that others (or my future self) can understand it?  
+  - *lab/field notebooks, data dictionaries, README files, protocols*
 - Which metadata standard(s) will I use?  
+  - *Dublin Core, ISO 19115, Darwin Core, DataCite Schema*
 - When will metadata be created and updated?  
+  - *start at project onset, update regularly, finalize at archiving*
 :::
 
 <img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-## Documentation & metadata
-
-***Core Elements***
-
-::: {style="font-size: 80%;"}
-- **Documentation practices** ➡️ lab/field notebooks, data dictionaries, README files, protocols  
-- **Metadata standards** ➡️ Dublin Core, ISO 19115, Darwin Core, DataCite Schema  
-- **Timing** ➡️ start at project onset, update regularly, finalize at archiving  
-:::
-
-<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
 ## Documentation & metadata  
 
@@ -368,26 +349,16 @@ Building your Data Management Plan
 
 ***Guiding Questions***
 
-- Where will data be stored during the project (primary and working locations)?
-- How often are backups made, where are they stored, and are they automated?
+- Where will data be stored during the project?
+  - institutional servers, certified cloud storage, external media  
+- How often and where are backups made, and are they automated?
+  - frequency, number of copies, locations 
 - Who can access the data, and how is access protected?
-- How will you detect data corruption or unintended changes?
-- How much data will be generated, and can the storage system handle growth and performance needs?
-- Who provides, pays for, and maintains storage and backup infrastructure?
-
-
-## Storage & protection
-
-<img src="img/storage.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-***Core Elements***
-
-- **Storage location** ➡️ institutional servers, certified cloud storage, external media  
-- **Backup strategy** ➡️ frequency, number of copies, locations 
-- **Access & security** ➡️ permissions, authentication, encryption  
-- **File integrity** ➡️ checksums, error detection  
-- **Scalability** ➡️ projected storage needs (GB/TB)  
-- **Costs & resources** ➡️ who pays and what infrastructure is provided  
+  - permissions, authentication, encryption  
+- How much storage will be required?
+  - projected storage needs (GB/TB)
+- Who provides, pays for, and maintains storage and backup?
+  - who pays and what infrastructure is provided  
 
 
 ## Storage & protection
@@ -444,20 +415,17 @@ Building your Data Management Plan
 ***Guiding questions***
 
 - What software, tools, or pipelines will be used?  
+  - *R, Python, MATLAB, ArcGIS, QGIS, etc*
 - How will analysis steps be documented?  
+  - *scripts, Jupyter notebooks, R Markdown, Quarto*
 - How will you ensure reproducibility?  
+  - *version control (GitHub, GitLab), containers (Docker)*
 
-*Short but important: show how your analysis is transparent and trustworthy.*  
 
 ## Data analysis
 
 <img src="img/analysis.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-***Core elements***
-
-- **Software & tools** ➡️ R, Python, MATLAB, ArcGIS, QGIS (note open vs proprietary)  
-- **Workflow documentation** ➡️ scripts, Jupyter notebooks, R Markdown, Quarto  
-- **Reproducibility** ➡️ version control (GitHub, GitLab), containers (Docker)  
 
 ## Data analysis
 
@@ -510,22 +478,15 @@ Building your Data Management Plan
 ***Guiding Questions***
 
 - Which trusted repository will be used for long-term preservation?
+  - *Borealis, FRDR, Dryad, Zenodo, GBIF, OBIS*
 - In which formats will data be archived?
+  - *CSV, NetCDF, GeoTIFF, JSON (avoid lossy formats like JPEG, MP3)*
 - How will datasets be persistently identified and cited?
+  - *DOI, URI*
 - For how long will the data be preserved?
+  - *typically ≥ 5–10 years, ideally indefinite*
 
 *Goal: ensure your data remain usable and accessible well beyond the project*
-
-
-## Preservation & archiving
-
-<img src="img/archiving.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-- **Trusted repositories** ➡️ Borealis, FRDR, Dryad, Zenodo, GBIF, OBIS
-- **Preservation formats** ➡️ CSV, NetCDF, GeoTIFF, JSON (avoid lossy formats like JPEG, MP3)  
-- **Persistent identifiers** ➡️ DOI, URI
-- **Retention period** ➡️ typically ≥ 5–10 years, ideally indefinite 
-
 
 
 ## Preservation & archiving
@@ -670,22 +631,13 @@ Building your Data Management Plan
 ***Guiding Questions***
 
 - Who can access the data, and when?  
+  - *open, embargoed, or restricted*
 - What license will govern reuse?  
+  - *CC-BY, CC0, or custom terms*
 - How will data be documented?
+  - *metadata and README ensure others can reuse data*
 
 *Goal: make data available in a way that is clear, usable, and responsible*
-
-
-## Sharing & reuse
-
-<img src="img/sharing.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-***Core Elements***
-
-- **Access conditions** ➡️ open, embargoed, or restricted  
-- **Licensing** ➡️ CC-BY, CC0, or custom terms  
-- **Documentation** ➡️ metadata and README ensure others can reuse data  
-
 
 
 ## Sharing & reuse
@@ -775,21 +727,13 @@ Building your Data Management Plan
 ***Guiding Questions***
 
 - Are ethics approvals required?  
+  - *Research Ethics / Institutional Review Baords, community review*
 - Will Indigenous knowledge or data be collected?  
+  - *CARE, OCAP®, NISR, community agreements*
 - Who owns the data and how will IP be handled?  
+  - *ownership, licensing, industry agreements*
 - Are there legal restrictions on the data?  
-
-## Legal & ethics
-
-<img src="img/legal.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-***Core Elements***
-
-- Ethics approvals (Research Ethics / Institutional Review Baords, community review)
-- Indigenous data sovereignty (CARE, OCAP®, NISR, community agreements)  
-- Intellectual property (ownership, licensing, industry agreements)  
-- Legal compliance (Tri-Council, privacy acts, international obligations)  
-
+  - *Tri-Council, privacy acts, international obligations*
 
 
 ## Legal & ethics
@@ -818,7 +762,6 @@ Building your Data Management Plan
 
 ::: {style="font-size: 80%;"}
 - Multiple institutions ➡️ align ethics and legal requirements  
-- Multiple institutions ➡️ align ethics and legal requirements  
 - Indigenous partners may require community-based repositories or controlled access  
 - Consider cross-border data transfer and compliance  
 :::
@@ -839,82 +782,49 @@ Emerging Trends & Opportunities
 
 ## The Future of RDM in IRPs
 
-- Large IRPs = diverse teams, methods, data cultures  
-- Fully centralized governance is often impractical  
-- Future opportunity lies in metadata interoperability  
-- Structured, machine-readable metadata enriched with PIDs  
-- Foundation for all downstream capabilities  
+:::{.incremental}
+- IRPs: diverse teams, methods, data types, and data cultures  
+- Fully centralized governance is impractical
+- Need for flexible approaches that:
+  - preserve project autonomy
+  - enable coordination  
+- Solution: modular, interoperable tools
+- Next step for RDM in IRPs: **interoperable metadata**
+:::
 
 
 
-## Metadata interoperability first
-
-- Describe data consistently across projects  
-- Use structured fields + persistent identifiers (PIDs)  
-  - ORCID (people)  
-  - ROR (institutions)  
-  - DOI (datasets, publications)  
-- Unlocks discovery, integration, and reuse at scale  
+## Interoperable Metadata Hubs
 
 
+<!-- Replace with your two hub screenshots / links -->
+:::: {.columns}
 
-## Modular, not monolithic
+::: {.column width="50%"}
+***ArcticNet Data Hub***
+<img src="img/ANHub.png" style="width:100%; border-radius:12px;">
+:::
 
-- Strategy: lightweight, interoperable tools  
-- Preserve project autonomy while enabling network-wide coordination  
-- Shared metadata practices > centralized platforms  
-- Example: visualization-led collaboration in other programs  
+::: {.column width="50%"}
+***Regional Assessment Hub***
+<img src="img/ERSLHub.png" style="width:100%; border-radius:12px;">
+:::
 
-
-
-## Machine-actionable DMPs (maDMPs)
-
-- Evolve traditional DMPs into dynamic metadata registries  
-- Articulate practices using structured fields & PIDs  
-- Program-wide maDMPs can:  
-  - Feed repositories & dashboards  
-  - Build PID graphs linking data–people–institutions–funding  
-  - Expose synergies & track reuse  
+::::
 
 
+## From Metadata to Interoperability
 
-## Data Hub
-
-<a href="https://019b8fdd-da08-04e4-50a3-8f9cb793bb4d.share.connect.posit.cloud/?private_link_token=he3qjM9FV402fkZvDa39yseIO4EcZ79qrYRxmRLmLWRJaZ9ZV8vSfsSmPyS528Bn" target="_blank">
-  <img src="img/datahub.png">
-</a>
-
-
-## New capabilities from interoperability
-
-- Automated validation ➡️ check datasets archived as planned  
-- Semantic search ➡️ discover data by concepts, not just keywords  
-- Dashboards ➡️ visualize activity, reuse, collaboration networks  
-- Reproducible workflows ➡️ connect metadata with pipelines (RO-Crate, Snakemake, Targets)  
-- Automated validation ➡️ check datasets archived as planned  
-- Semantic search ➡️ discover data by concepts, not just keywords  
-- Dashboards ➡️ visualize activity, reuse, collaboration networks  
-- Reproducible workflows ➡️ connect metadata with pipelines (RO-Crate, Snakemake, Targets)  
-
-
-## AI opportunities for IRPs
-
-- **Structured metadata** is the prerequisite for AI at scale
-- Enables automated knowledge graphs of people–data–projects
-- Supports cross-project synthesis and **trend discovery**
-- Moves RDM from compliance ➡️ intelligence infrastructure 
-
-## Toward FAIR-by-design IRPs
-
-- Embed metadata interoperability from project planning onward  
-- Ensure data is discoverable, trackable, reusable by default  
-- Strengthen attribution and impact reporting  
-- Transform IRPs into knowledge hubs, not just funding umbrellas  
-
+:::{.incremental}
+- Metadata interoperability = path to data interoperability
+- Combined with PIDs: discoverable, linkable, and reusable assets
+- Unlocks:
+  - cross-project discovery and synthesis
+  - automated workflows
+  - dashboards, validation, and reuse tracking
+  - AI / LLM applications (knowledge graphs, assisted discovery, Q&A)
+:::
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 # *Q&A / CTA / Thank you!*
-
-
-
