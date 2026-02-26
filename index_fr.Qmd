@@ -702,32 +702,26 @@ Vous ne pourrez pas toujours partager vos données, mais vous pouvez toujours pa
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="55%"}
 
 ::: {.callout-tip}
 ### PRI : Programme de recherche interdisciplinaire
 :::
 
 ::: {.incremental .small}
-- **Échelle et complexité** : projets, équipes et disciplines multiples
-- **Continuité** : la longue durée des programmes nécessite une préservation robuste
-- **Opportunités** : des données bien gérées favorisent la réutilisation, l'intégration, de nouvelles collaborations et de nouvelles perspectives
+- Même processus x nombre de projets 
+- Efforts requis en coordination
+- Promouvoir les meilleures pratiques de GDR
+- Potentiel de collaboration à travers les données
 :::
-
-
-::: {.fragment}
-- Le réseau définira et promouvra les meilleures pratiques de GDR
-:::
-
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="45%"}
 ![](img/workflow_fr.svg){width=100%, fig-align="center"}
 
 ::: {.small}
-- Même processus x nombre de projets !
-- Efforts requis en coordination
+
 :::
 :::
 
