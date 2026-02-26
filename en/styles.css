@@ -32,11 +32,6 @@
   font-style: italic;
 }
 
-/* Reduce default body text size to 80% */
-.reveal p,
-.reveal li {
-  font-size: 80% !important;
-}
 
 
 .footer {
@@ -44,5 +39,5 @@
 }
 
 .small {
-  font-size: 80% !important;
+  font-size: 90% !important;
 }
