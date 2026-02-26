@@ -12,6 +12,7 @@ format:
     incremental: false
     toc: false
     toc-depth: 2
+    fontsize: 32px
     include-in-header:
       - text: |
           <!-- Font Awesome 6 -->
