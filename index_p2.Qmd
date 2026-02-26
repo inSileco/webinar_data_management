@@ -827,4 +827,39 @@ Emerging Trends & Opportunities
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-# *Q&A / CTA / Thank you!*
+
+# 
+
+::: {style="font-size: 120%;"}
+***Thank you!***
+:::
+
+
+::: {style="text-align:center; margin-top: 2.2rem;"}
+
+::: {style="font-size: 90%;"}
+*If you're working on data management plans, metadata harmonization, or research program coordination, we're happy to continue the discussion.*
+:::
+
+<div style="display:flex; justify-content:center; align-items:center; gap:50px; margin-top:0.8rem;">
+  <a href="mailto:david.beauchesne@insileco.io" target="_blank">
+    <img src="img/david.png" alt="Contact David Beauchesne" style="height:100px; border-radius:8px;">
+  </a>
+
+  <a href="https://insileco.io/en?utm_campaign=an_rdm" target="_blank">
+    <img src="img/main.png" alt="inSileco website" style="height:125px; border-radius:8px;">
+  </a>
+
+  <a href="mailto:kevin.cazelles@insileco.io" target="_blank">
+    <img src="img/kevin.png" alt="Contact Kevin Cazelles" style="height:100px; border-radius:8px;">
+  </a>
+</div>
+
+::: {style="font-size: 90%;"}
+We would also greatly appreciate your feedback!
+:::
+
+<a href="" target="_blank">
+  <img src="img/tally_qr.png" alt="Webinar appreciation form" style="height:175px; border-radius:8px;">
+</a>
+:::

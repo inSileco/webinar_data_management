@@ -17,16 +17,86 @@ format:
           <!-- Font Awesome 6 -->
           <link rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+          <style>
+            /* Add logos under the date on the auto-generated revealjs title slide */
+            #title-slide p.date {
+              margin-bottom: 0;
+            }
+            #title-slide p.date::after {
+              content: "";
+              display: block;
+              width: 425px;
+              height: 175px;
+              margin: 12px auto 0 32%;
+              background-image: url("img/main_w_text.png"), url("img/logo_articnet.svg");
+              background-repeat: no-repeat, no-repeat;
+              background-size: 115px auto, 225px auto;
+              background-position: left 10px center, right 10px center;
+            }
+          </style>
 ---
-
-# About Us 
-
 
 ## About Us
 
-::: {style="text-align: center;"}
-[![](img/insileco.png){width=80%}](https://insileco.io/){target="_blank"}
+:::: {.columns}
+
+::: {.column width="50%"}
+<br>
+***David Beauchesne & Kevin Cazelles***
+
+::: {style="font-size: 80%;"}  
+*Co-founders, inSileco*
 :::
+
+---
+
+:::{.fragment}
+
+::: {style="font-size: 90%;"}  
+- Research data management 
+- Automated workflows
+- Augmented analytics
+- Decision-support tools
+:::
+
+---
+
+:::
+
+
+:::{.fragment}
+*Collaborations:*
+
+::: {style="font-size: 80%;"}  
+*ArcticNet, Sentinelle Nord, ECCC, DFO, W8banaki, Wendake, IAAC, CEM*
+:::
+
+:::
+
+:::
+
+::: {.column width="50%"}
+::: {style="display:flex; flex-direction:column; align-items:center; gap:50px; min-height:520px;"}
+<div style="display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:center; align-items:center; gap:40px; width:100%;">
+  <a href="https://insileco.io/" target="_blank" style="display:inline-block; flex:0 0 auto; text-align:center;">
+    <img src="img/david.png" style="display:block; width:160px; margin:0 auto;">
+  </a>
+
+  <a href="https://insileco.io/" target="_blank" style="display:inline-block; flex:0 0 auto; text-align:center;">
+    <img src="img/kevin.png" style="display:block; width:160px; margin:0 auto;">
+  </a>
+</div>
+
+<a href="https://insileco.io/" target="_blank" style="display:block; text-align:center; width:100%;">
+  <img src="img/main_w_text.png" style="display:block; width:225px; margin:0 auto;">
+</a>
+
+:::
+:::
+
+:::: 
+
+
 
 ## About Us 
 
@@ -711,6 +781,3 @@ You may not always be able to share your data but you can always share your meta
 
 
 ![](img/timeline2.png){width=100%}
-
-
-
