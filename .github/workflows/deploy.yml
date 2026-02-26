@@ -23,19 +23,19 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render presentation
-        run: quarto render index.Qmd
+      - name: Render presentations
+        run: |
+          quarto render index.Qmd --output-dir en
+          quarto render index_fr.Qmd --output-dir fr
 
       - name: Stage deployment
         run: |
           mkdir -p _deploy
-          cp index.html custom.scss styles.css _deploy/
-          cp -r index_files/ img/ _deploy/
+          cp -r en fr _deploy/
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: _deploy
-          destination_dir: en
           keep_files: true
