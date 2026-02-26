@@ -1,3 +1,6 @@
+*.html
+index_files
+
 .DS_Store
 .vscode
 
