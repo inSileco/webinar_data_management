@@ -387,12 +387,9 @@ Building your Data Management Plan
 ### Special Considerations 
 
 ::: {style="font-size: 80%;"}
-- Sensitive / Indigenous data ➡️ use community-approved safeguards, respect sovereignty  
-- Large volumes / "big data" ➡️ address infrastructure, costs, specialized servers  
-- Fieldwork constraints ➡️ describe temporary solutions (field laptops, portable drives) and how data will be secured until upload  
-- Sensitive / Indigenous data ➡️ use community-approved safeguards, respect sovereignty  
-- Large volumes / "big data" ➡️ address infrastructure, costs, specialized servers  
-- Fieldwork constraints ➡️ describe temporary solutions (field laptops, portable drives) and how data will be secured until upload  
+- Sensitive / Indigenous data ➡️ use community-approved safeguards, respect sovereignty
+- Large volumes / "big data" ➡️ address infrastructure, costs, specialized servers
+- Fieldwork constraints ➡️ describe temporary solutions (field laptops, portable drives) and how data will be secured until upload
 :::
 :::
 :::
@@ -513,12 +510,9 @@ Building your Data Management Plan
 ### Special Considerations 
 
 ::: {style="font-size: 80%;"}
-- Sensitive data ➡️ anonymization, restricted access, secure long-term storage  
-- Indigenous data sovereignty ➡️ respect CARE, OCAP®, NISR, community protocols  
-- Large volumes ➡️ consider specialized repositories, HPC, or cloud archives  
-- Sensitive data ➡️ anonymization, restricted access, secure long-term storage  
-- Indigenous data sovereignty ➡️ respect CARE, OCAP®, NISR, community protocols  
-- Large volumes ➡️ consider specialized repositories, HPC, or cloud archives  
+- Sensitive data ➡️ anonymization, restricted access, secure long-term storage
+- Indigenous data sovereignty ➡️ respect CARE, OCAP®, NISR, community protocols
+- Large volumes ➡️ consider specialized repositories, HPC, or cloud archives
 :::
 :::
 :::
@@ -727,7 +721,7 @@ Building your Data Management Plan
 ***Guiding Questions***
 
 - Are ethics approvals required?  
-  - *Research Ethics / Institutional Review Baords, community review*
+  - *Research Ethics / Institutional Review Boards, community review*
 - Will Indigenous knowledge or data be collected?  
   - *CARE, OCAP®, NISR, community agreements*
 - Who owns the data and how will IP be handled?  

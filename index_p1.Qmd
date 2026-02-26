@@ -229,7 +229,7 @@ RDM, Data & Open Science
   - Ex: good assessment of temperature and precipitation change
 - Some data are hard and expensive to collect
   - Arctic Data are good examples
-- Past and today data are curcial for future generations
+- Past and today data are crucial for future generations
   - We cannot collect past data
   - considerable past public money has been spent to collect them
 
@@ -310,7 +310,7 @@ RDM, Data & Open Science
 
 #### Archive
 
-- Choose a **digital reository** that respects **key principles**
+- Choose a **digital repository** that respects **key principles**
 - ensure that your **metadata** are complete
 
 ::: {.fragment}
@@ -520,9 +520,9 @@ Metadata standards describe the data itself (context & discovery), while data st
 [![](img/pdc.png){width=68% fig-align="center"}](img/pdc.png)
 
 ::: {.small}
-- CoreTrustSeal Certified Repository: data is secure, properly managed, and adheres to FAIRrinciples.
+- CoreTrustSeal Certified Repository: data is secure, properly managed, and adheres to FAIR principles.
 - Standardized metadata
-- Supports Arctinet researchers
+- Supports ArcticNet researchers
 ::: 
 
 :::footer
@@ -563,7 +563,7 @@ file size limit of 5GB
 &nbsp; ***·*** &nbsp;
 [Borealis](https://borealisdata.ca/)
 &nbsp; ***·*** &nbsp;
-[Brealis at Université Laval](https://borealisdata.ca/dataverse/laval)
+[Borealis at Université Laval](https://borealisdata.ca/dataverse/laval)
 &nbsp; ***·*** &nbsp;
 [FRDR](https://www.frdr-dfdr.ca/)
 :::
@@ -702,7 +702,7 @@ You may not always be able to share your data but you can always share your meta
 
 
 ::: {.fragment}
-- The network will set and promotes best RDM practices
+- The network will set and promote best RDM practices
 :::
 
 
@@ -747,7 +747,7 @@ You may not always be able to share your data but you can always share your meta
 - ArcticNet funded data = a **public good** ➡️ as open as possible, as closed as necessary  
 - Researchers must ensure:  
   - **Timely sharing** ➡️ data made publicly available quickly, unless restricted 
-  - **Publish metadata** ➡️ publish and share your metadata (e.g. Polar Data Catalog)
+  - **Publish metadata** ➡️ publish and share your metadata (e.g. Polar Data Catalogue)
   - **Respect for Indigenous rights** ➡️ uphold Inuit, First Nations, and Métis ownership, access, and control (CARE, OCAP®, NISR)  
   - **Citable & preserved** ➡️ data should be publishable, citable, and preserved when appropriate  
   - **Interoperability & connectivity** ➡️ link with Canadian & international Arctic data systems, avoid duplication  
