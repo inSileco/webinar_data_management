@@ -135,10 +135,9 @@ RDM, Data & Open Science
 :::: {.columns}
 
 ::: {.column width="70%"}
-- New research questions, new data 
-- Different objects, storage formats, technologies  
 - Data vary widely across and within disciplines  
-- One researcher handles a wide array of types of data
+- Different technologies, different formats,  
+- New research questions, new data 
 :::
 
 ::: {.column width="30%"}
@@ -158,9 +157,9 @@ RDM, Data & Open Science
 - We need reliable data to better understand and predict
   - anticipate/mitigate future changes
   - Ex: good assessment of temperature and precipitation change
-- Some data are hard (and expensive) to collect
+- Some data are hard and expensive to collect
   - Arctic Data are good examples
-- Data are **precious** for future generations
+- Past and today data are curcial for future generations
   - We cannot collect past data
   - considerable past public money has been spent to collect them
 
@@ -168,11 +167,20 @@ RDM, Data & Open Science
 
 ## So,
 
-- Research data are big and heterogeneous
-- Research data are extremely valuable 
 
 :::{.fragment}
-**Let's take good care of all collected datasets**
+- Research data are big and heterogeneous
+  - ➡️ hard to manage 
+:::
+
+
+:::{.fragment}
+- Research data are extremely valuable 
+  - ➡️ must be managed
+:::
+
+:::{.fragment}
+**We need to take good care of all collected datasets**
 :::
 
 
@@ -232,7 +240,7 @@ RDM, Data & Open Science
 
 #### Archive
 
-- Choose a **platform** that respects **key principles**
+- Choose a **digital reository** that respects **key principles**
 - ensure that your **metadata** are complete
 
 ::: {.fragment}
@@ -241,7 +249,7 @@ RDM, Data & Open Science
 
 - Future you or others
 - **License** your data 
-- Report secondary data usage 
+- Report secondary datasets usage 
 :::
 
 :::
@@ -263,11 +271,11 @@ RDM, Data & Open Science
 
 ## Documentation & Metadata  
 
-***What are metadata & metadata standards?***  
+***Metadata?***
 
 ::: {style="font-size: 80%;"}  
-- Data that describes the datasets
-- Describe the **context,** not the content  
+- Data about data
+- Describe the **context** not the content  
 - Provide consistent fields for *who, what, where, when, how* 
 - Standard Examples:  
   - **Dublin Core** ➡️ general-purpose descriptors  
@@ -281,8 +289,6 @@ RDM, Data & Open Science
 Metadata standards describe the data itself (context & discovery), while data standards define how the data is structured. Together, they ensure interoperability and reuse.  
 :::  
 
-<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
 :::footer  
 [FAIRsharing.org](https://fairsharing.org/)  
 :::
@@ -290,42 +296,14 @@ Metadata standards describe the data itself (context & discovery), while data st
 
 ## Documentation & Metadata  
 
-<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
 
-***Dublin Core: What is it?***
+***Dublin Core?***
 
 - A **generic metadata standard** used across disciplines  
-- Provides a **basic set of 15 elements** to describe digital objects  
-- Focused on: **who, what, where, when**  
-- Works across repositories, making datasets **findable and shareable**  
-
-**Core elements (examples):**  
-- `title`, `creator`, `subject`, `date`, `format`, `identifier`  
-
-💡 Often extended with qualifiers to add more precision  
-
-## Documentation & Metadata  
-
-<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-***Dublin Core: The Grammar***
-
-- Based on **element–value pairs**  
-  - Element = the property being described  
-  - Value = the information recorded  
+- Focused on: **who, what, where, when**   
 - Syntax is **machine-readable** (XML, JSON) but also **human-readable**  
-- Flexible: can be embedded in repositories, DOIs, web pages  
 
-**Example pattern:**  
-- `dc:title` ➡️ "Water Sampling Data 2025"  
-- `dc:creator` ➡️ "Smith, J."  
-- `dc:date` ➡️ "2025-04-15"  
-
-## Documentation & Metadata  
-
-<img src="img/metadata.png" style="height:70px; position:absolute; top:-30px; right:-30px;">
-
-***Dublin Core: Example Record***
+***Example Record***
 
 ```xml
 <record>
@@ -351,6 +329,7 @@ Metadata standards describe the data itself (context & discovery), while data st
 ## Storing your Data 
 
 - Use a secured storage
+- One copy on one computer is not enough
 - Multiple copies, using cloud
 - If possible use the 3-2-1 backup rule 
 - How sensitive are your data?
@@ -416,8 +395,9 @@ Metadata standards describe the data itself (context & discovery), while data st
 :::
 :::
 
-::: {.column width="40%"}
+::: {.column width="40%" .small}
 [![](img/fair.png)](img/fair.png)
+***Persistent Identifiers (PIDs)***
 :::
 
 ::::
@@ -428,27 +408,6 @@ Metadata standards describe the data itself (context & discovery), while data st
 :::
 
 
-## [FAIR](https://www.nature.com/articles/sdata201618) Principles
-
-***Persistent Identifiers (PIDs)***
-
-::: {style="font-size: 80%;"}
-- What they are: unique, permanent digital references for research objects, people, and institutions.  
-
-- Examples:  
-  - **DOI** ➡️ datasets, publications  
-  - **ORCID** ➡️ researchers  
-  - **ROR** ➡️ institutions  
-  - **ARK / Handle** ➡️ digital objects  
-
-- Why are PIDs important for DMPs & RDM?
-  - Ensure long-term findability and access  
-  - Enable unambiguous attribution (linking people, projects, data)  
-  - Facilitate interoperability across repositories and systems  
-  - Support impact tracking and reuse metrics  
-
-*Think of PIDs as the “barcodes” of research*  
-:::
 
 
 ## [TRUST](https://datascience.codata.org/articles/10.5334/dsj-2020-043/) Principles
@@ -471,7 +430,7 @@ Metadata standards describe the data itself (context & discovery), while data st
 
 ::::
 
-::: {style="font-size: 80%;"}
+::: {.small}
 **Goals:**
 
 - Build confidence in digital repositories  
@@ -480,6 +439,21 @@ Metadata standards describe the data itself (context & discovery), while data st
 - Guarantee long-term preservation and accessibility  
 - Provide secure, persistent, and interoperable infrastructure  
 :::
+
+:::footer
+[Lin *et al.* 2020. *The TRUST Principles for digital repositories* Scientific data](https://www.nature.com/articles/s41597-020-0486-7)
+:::
+
+
+## Polar Data Catalogue (PDC)
+
+[![](img/pdc.png){width=68% fig-align="center"}](img/pdc.png)
+
+::: {.small}
+- CoreTrustSeal Certified Repository: data is secure, properly managed, and adheres to FAIRrinciples.
+- Standardized metadata
+- Supports Arctinet researchers
+::: 
 
 :::footer
 [Lin *et al.* 2020. *The TRUST Principles for digital repositories* Scientific data](https://www.nature.com/articles/s41597-020-0486-7)
@@ -506,6 +480,8 @@ OCUL = Ontario Council of University Libraries
 
 [![](img/borealis_partners.png)](img/borealis_partners.png)
 
+file size limit of 5GB
+
 ::: 
 
 ::::
@@ -518,6 +494,8 @@ OCUL = Ontario Council of University Libraries
 [Borealis](https://borealisdata.ca/)
 &nbsp; ***·*** &nbsp;
 [Brealis at Université Laval](https://borealisdata.ca/dataverse/laval)
+&nbsp; ***·*** &nbsp;
+[FRDR](https://www.frdr-dfdr.ca/)
 :::
 
 
@@ -533,6 +511,9 @@ OCUL = Ontario Council of University Libraries
 
 *Clearly state the license in your metadata, README, or repository record*
 
+
+
+
 :::footer
 [Creative Commons Licenses](https://creativecommons.org/licenses/)
 &nbsp; ***·*** &nbsp;
@@ -544,20 +525,20 @@ OCUL = Ontario Council of University Libraries
 :::
 
 
+## Sharing your (meta)data 
+
+::: {.callout-important}
+You may not always be able to share your data but you can always share your metadata.
+:::
 
 
-## Ethical and Legal aspects 
+
+
+## Ethical and Legal Aspects 
 
 
 ![](img/workflow.svg){width=86%, fig-align="center"}
 
-
-
-## With Borealis 
-
-- You are using a TRUST platform that respects FAIR principles
-- You will have to fill out metadata and proper standard will be used
-- The archiving portion of the DMP is hence taken care of
 
 
 
@@ -650,6 +631,11 @@ OCUL = Ontario Council of University Libraries
 :::
 
 
+::: {.fragment}
+- The network will set and promotes best RDM practices
+:::
+
+
 :::
 
 ::: {.column width="40%"}
@@ -662,6 +648,21 @@ OCUL = Ontario Council of University Libraries
 :::
 
 ::::
+
+
+## Tri-Agency RDM Policy (2021)
+
+- **Applies across NSERC, SSHRC, CIHR**  
+- Institutions must develop and publish **institutional RDM strategies**  
+- Researchers are expected to:  
+  - Prepare and maintain **Data Management Plans**  
+  - Deposit data in **trusted repositories** when appropriate  
+- Ensures Canadian research aligns with **international open science practices**  
+- Compliance increasingly linked to **funding requirements**  
+
+:::footer
+[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
+:::
 
 
 
@@ -694,56 +695,22 @@ OCUL = Ontario Council of University Libraries
 
 
 
-## Tri-Agency RDM Policy (2021)
-
-- **Applies across NSERC, SSHRC, CIHR**  
-- Institutions must develop and publish **institutional RDM strategies**  
-- Researchers are expected to:  
-  - Prepare and maintain **Data Management Plans**  
-  - Deposit data in **trusted repositories** when appropriate  
-- Ensures Canadian research aligns with **international open science practices**  
-- Compliance increasingly linked to **funding requirements**  
-
-:::footer
-[Tri-Agency RDM Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions)
-:::
-
-
 
 
 ## Timeline and dual responsibilities
 
 *Network: balance autonomy & coordination*
 
-:::: {.columns}
-::: {.column width="40%"}
-- Standards & templates
-- Tools for metadata & discovery
-- Review, feedback & training
-- Synthesize & report
-:::
+![](img/timeline.png){width=100%}
 
-::: {.column width="60%"}
-[![](img/timeline.png){width=100%}](img/timeline2.png)
-:::
-::::
+
 
 ## Timeline and dual responsibilities
 
 *Researchers: manage and document project data responsibly*
 
-:::: {.columns}
-::: {.column width="40%"}
-- Proposal & tentative data management plan
-- Develop and maintain project-level data management plan
-- Collect & document
-- Analyze
-- Archive
-:::
 
-::: {.column width="60%"}
-[![](img/timeline2.png){width=100%}](img/timeline2.png)
-:::
-::::
- 
+![](img/timeline2.png){width=100%}
+
+
 
